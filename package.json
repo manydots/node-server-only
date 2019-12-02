@@ -1,0 +1,29 @@
+{
+  "name": "gooseeker",
+  "version": "0.0.1",
+  "description": "gooseeker",
+  "scripts": {
+    "server": "node --trace-deprecation ./server.js",
+    "server:http": "set port=3034 && node --trace-deprecation ./server.js",
+    "server:linux": "export port=8089 && node --trace-deprecation ./server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "node",
+    "music",
+    "koa",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manydots/gooseeker.git"
+  },
+  "homepage": "https://github.com/manydots/gooseeker#readme",
+  "author": "mo.chen",
+  "license": "MIT"
+}
