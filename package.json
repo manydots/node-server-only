@@ -1,7 +1,7 @@
 {
-  "name": "gooseeker",
+  "name": "node-server-only",
   "version": "0.0.1",
-  "description": "gooseeker",
+  "description": "node-server-only",
   "scripts": {
     "server": "node --trace-deprecation ./server.js",
     "server:http": "set port=3034 && node --trace-deprecation ./server.js",
@@ -21,9 +21,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:manydots/gooseeker.git"
+    "url": "git@github.com:manydots/node-server-only.git"
   },
-  "homepage": "https://github.com/manydots/gooseeker#readme",
+  "homepage": "https://github.com/manydots/node-server-only#readme",
   "author": "mo.chen",
   "license": "MIT"
 }
